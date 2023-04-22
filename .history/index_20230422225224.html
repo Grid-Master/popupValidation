@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="openBtn">Открыть popup</button>
+    <div id="popup">
+      <div class="wrapper">
+        <button class="popup__closeBtn">X</button>
+        <form class="popup__form">
+          <h1 class="popup__form-title">Междугородние такси</h1>
+          <div class="popup__form-desc">Молдова, Приднесровье, Украина</div>
+          <input class="popup__form-name" type="text" placeholder="Имя" />
+          <input class="popup__form-tel" type="tel" />
+          <div class="popup__form-container">
+            <input class="popup__form-container-from" type="text" placeholder="Откуда" />
+            <input class="popup__form-container-to" type="text" placeholder="Куда" />
+          </div>
+          <input class="popup__form-date" placeholder="Дата поездки" type="date" />
+          <textarea class="popup__form-message" placeholder="Коротко сообщение"></textarea>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
